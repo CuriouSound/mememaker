@@ -1,0 +1,5 @@
+#FFAF87 Couleur saumon clair
+#FF8E72 Couleur saumon foncé
+#ED6A5E Couleur rouge
+#4CE0B3 Couleur bleue clair
+#377771 Couleur bleu foncé pas piqué des hanneton
