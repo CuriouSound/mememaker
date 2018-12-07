@@ -27,3 +27,32 @@
 #pageGenerale {
 background-color: rgba(110, 94, 97, 0.16);
 }
+
+
+
+/***************contenu page générateur**********/
+.blocimage {
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 10px;
+}
+.formValid  {
+    display: flex;
+    flex-direction: column;
+
+}
+.instructions {
+    padding-right: 30px;
+}
+
+/***************************section des photos à choisir*************/
+.choixPhotos > * {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.photo{
+    border: thick double rgba(110, 94, 97, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

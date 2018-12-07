@@ -8,11 +8,11 @@
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
                     <div class="photo">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="bigbigfaill.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="woman.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="bigfall.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="cat.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="coworker.jpg">
+<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum?>.jpg">
+<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum1?>.jpg">
+<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum2?>.jpg">
+<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum3?>.jpg">
+<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum4?>.jpg">
 
                     </div>
                     <form action="?page=meme" method="post">
@@ -21,15 +21,16 @@
                     </form>
                 </div>
             </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md">
                 <div class="row">
-                    <p class="instructions"><span class="span">Instructions : </span> Tapez le texte que vous voulez afficher sur les photos. La première case s'affichera en haut de la photo, la seconde en bas. Une fois l'oeuvre d'art achevée, envoyez mémé dans les orties! (30 caractères maxi)</p>
+                    <p class="instructions imageAMemer"><span class="span">Instructions : </span> Tapez le texte que vous voulez afficher sur les photos. La première case s'affichera en haut de la photo, la seconde en bas. Une fois l'oeuvre d'art achevée, envoyez mémé dans les orties! (30 caractères maxi)</p>
                 </div>
                 <div class="row">
-                    <form action="../Controllers/MemeController.php" class="formValid">
-
+                    <form action="ajax.php" method="post" class="formValid">
+<!-- i put nom -->
                         <textarea type="text" name="textehaut" placeholder="Meme'R ici" maxlength="30"></textarea>
                         <textarea type="text"  placeholder="Meme'R ici" name="textebas" maxlength="30"></textarea>
                         <input type="submit" name="valider" value="Essayer">
@@ -38,12 +39,14 @@
             </div>
             <div class="col-md">
                 <div class="blocimage">
-                    <img style="width: 100%; max-height: 100%" src="memere.jpg">
-                    <!-- <img src="<?=variablephp?>"> -->
+                   <!--  <img id="chosenPic" src="<?=$chosenPic?>"> -->
+                    <div id="chosenPic"></div>
+                    <!-- <img style="width: 100%; max-height: 100%" src="memere.jpg"> -->
+                    <div id="finalMeme"></div>
                 </div>
             </div>
         </div>
-                    <button>Mémé dans les orties!</button>
+                    <button onclick="loadDoc">Mémé dans les orties!</button>
     </div>
 
 </section>

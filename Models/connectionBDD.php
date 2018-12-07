@@ -1,7 +1,7 @@
 <?php
 
 $host = '127.0.0.1';
-	$db = '';
+	$db = 'Meme_R';
 	$user ='phpmyadmin';
 	$pass = 'aleth';
 	$charset = 'utf8mb4';
