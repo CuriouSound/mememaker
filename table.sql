@@ -9,7 +9,9 @@
 
 CREATE TABLE images_brutes(
         ID_imgbrutes  Int  Auto_increment  NOT NULL ,
-        Url_imgbrutes Varchar (1000) NOT NULL
+        Url_imgbrutes Varchar (1000) ,
+        nom_imgbrutes Varchar (255) ,
+        chemin_img    Varchar (255)
 	,CONSTRAINT images_brutes_PK PRIMARY KEY (ID_imgbrutes)
 )ENGINE=InnoDB;
 
@@ -19,9 +21,9 @@ CREATE TABLE images_brutes(
 #------------------------------------------------------------
 
 CREATE TABLE memes(
-        Id_memes  Int  Auto_increment  NOT NULL ,
-        img_memes Varchar (1000) NOT NULL ,
-        titre     Varchar (255) NOT NULL
+        Id_memes    Int  Auto_increment  NOT NULL ,
+        url_memes   Varchar (1000) ,
+        titre       Varchar (255) ,
+        cheminlocal Varchar (255)
 	,CONSTRAINT memes_PK PRIMARY KEY (Id_memes)
 )ENGINE=InnoDB;
-
