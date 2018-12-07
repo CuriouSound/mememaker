@@ -1,0 +1,29 @@
+/**********************navbar**************************/
+.bg-dark {
+    background-color: #377771 !important;
+}
+.bg-dark *{
+    color: #FF8E72 !important;
+    font-weight: 501;
+}
+.nav-link:hover {
+    background-color: #4CE0B3;
+    color:  #377771 !important;
+}
+
+/**************footer******************/
+.footer {
+    background-color: #377771 !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer * {
+    color: #FF8E72 !important;
+}
+
+
+/**************fond******************/
+#pageGenerale {
+background-color: rgba(110, 94, 97, 0.16);
+}
