@@ -56,3 +56,6 @@ background-color: rgba(110, 94, 97, 0.16);
     flex-direction: row;
     justify-content: space-around;
 }
+input['placeholder'] {
+    color: #FFF;
+}

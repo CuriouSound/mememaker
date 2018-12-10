@@ -8,11 +8,16 @@
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
                     <div class="photo">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum?>.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum1?>.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum2?>.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum3?>.jpg">
-<img class='imageAMemer bouton' style="width: 17%; max-height: 17%" src="Images/photo<?=$randomNum4?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum1?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum2?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum3?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum4?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum5?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum6?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum7?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum8?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum9?>.jpg">
 
                     </div>
                     <form action="?page=meme" method="post">
@@ -26,14 +31,15 @@
         <div class="row">
             <div class="col-md">
                 <div class="row">
-                    <p class="instructions imageAMemer"><span class="span">Instructions : </span> Tapez le texte que vous voulez afficher sur les photos. La première case s'affichera en haut de la photo, la seconde en bas. Une fois l'oeuvre d'art achevée, envoyez mémé dans les orties! (30 caractères maxi)</p>
+                    <p class="instructions imageAMemer"><span class="span">Instructions : </span> Tapez le texte que vous voulez afficher sur les photos. La première case s'affichera en haut de la photo, la seconde en bas. Une fois l'oeuvre d'art achevée, envoyez mémé dans les orties! (30 caractères maxi). Donne-lui ensuite un nom (10 caractère maxi), sans espace.</p>
                 </div>
                 <div class="row">
-                    <form action="ajax.php" method="post" class="formValid">
+                    <form onsubmit='return false' action="enregistrement_meme.php" method="post" class="formValid">
 <!-- i put nom -->
-                        <textarea type="text" name="textehaut" placeholder="Meme'R ici" maxlength="30"></textarea>
-                        <textarea type="text"  placeholder="Meme'R ici" name="textebas" maxlength="30"></textarea>
-                        <input type="submit" name="valider" value="Essayer">
+                        <textarea type="text" id="textehaut" name="textehaut" placeholder="Meme'R ici" maxlength="30"></textarea>
+                        <textarea type="text" id="textebas" placeholder="Meme'R ici" name="textebas" maxlength="30"></textarea>
+                        <textarea type="text" id="nommeme" placeholder="Donne un nom à ton meme" name="nommeme" maxlength="10"></textarea>
+                        <input type="submit" name="valider" value="Essayer" onclick='loadDoc();'>
                     </form>
                 </div>
             </div>
@@ -42,7 +48,12 @@
                    <!--  <img id="chosenPic" src="<?=$chosenPic?>"> -->
                     <div id="chosenPic"></div>
                     <!-- <img style="width: 100%; max-height: 100%" src="memere.jpg"> -->
-                    <div id="finalMeme"></div>
+                    <div id="finalMeme">
+                    
+                    </div>
+                    <div id="preview">
+                        
+                    </div>
                 </div>
             </div>
         </div>
