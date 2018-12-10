@@ -8,15 +8,15 @@
   <link rel="shortcut icon" type="image/png" href="memere.jpg">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/morjannestyle.css">
-  <link rel="stylesheet" href="CSS/opheliestyle.css">
-  <link rel="stylesheet" href="CSS/robertstyle.css">
-  <link rel="stylesheet" href="CSS/alethstyle.css">
+  <link rel="stylesheet" href="css/morjannestyle.css">
+  <link rel="stylesheet" href="css/opheliestyle.css">
+  <link rel="stylesheet" href="css/robertstyle.css">
+  <link rel="stylesheet" href="css/alethstyle.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="?page=home">Meme'R</a>
+      <a class="navbar-brand" href="?page=home"><img class="logo" src="logomemer/logo_meme.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
