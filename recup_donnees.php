@@ -23,4 +23,3 @@ if ($moveIsOk) {
     $message = "Error, the file couldn't be downloaded.";
 }
 echo $message;
-?>

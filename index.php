@@ -1,14 +1,13 @@
 <?php
 
 
-if(isset($_GET['page']) && !empty($_GET['page'])) {
+if (isset($_GET['page']) && !empty($_GET['page'])) {
     $page = $_GET['page'];
+} else {
+    $page = 'Home';
 }
-else {
-    $page = 'Home'; 
-}
 
-$page = ucfirst($page); 
+$page = ucfirst($page);
 
 
-include('Controllers/'.$page.'Controller.php');
+include('Controllers/' . $page . 'Controller.php');
