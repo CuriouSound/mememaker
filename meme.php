@@ -5,10 +5,8 @@
 // si le client veut importer une image, alors il clique sur "upload" et peut choisir une image de son choix sur son pc 
 // (sous condition des trois formats imposés) -->
 
-                                                <!-- //écrire du texte sur l'image en php -->
-
-                                                               <!-- telechargement -->
-
+<!-- //écrire du texte sur l'image en php --> 
+<!-- telechargement -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,20 +19,18 @@
 </head>
 <body>
 
-<h1 >fichiers uploadés</h1>
-
 <form action="recup_donnees.php" method="post" enctype="multipart/form-data">
 
 <p>
-<label for="up" class="label">Nom du fichier après upload</label><br><br>
+<label for="up" class="label">choose a file to upload</label><br><br>
 
-<input type="text" name="fileName" placeholder="entrez nouveau nom">
+<input type="text" name="fileName" placeholder="enter a new name">
 </p>
 <p>
 <input type="file" name="fichier_upload">
 </p>
 <p>
-<input type="submit" value="enregistrer">
+<input type="submit" value="Download">
 </p>
 
 </form>
