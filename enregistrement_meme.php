@@ -1,52 +1,61 @@
 <?php
+ 
+//on récupère ici les variables JS envoyées avec ajax
 
-
-if (isset($_POST['valider'])) {
-
-  }
 $text_h=$_POST['textehaut'];
 $text_b=$_POST['textebas'];
 $nom=$_POST['nommeme'];
 $imageAMontrer=$_POST['imageAMontrer'];
+//imageAMontrer : l'url complète de l'image
 
  // header('Content-type: image/jpeg');
 
-   $imageAMontrer=  substr($imageAMontrer, 33, strlen($imageAMontrer));
-   echo $imageAMontrer;
+//on récupère l'url à partir de l'index de l'image (avec Images/...)
+$imageAMontrerCourt=  substr($imageAMontrer, 33, strlen($imageAMontrer));
+
     // Create Image From Existing File
-      $sunset = imagecreatefromjpeg($imageAMontrer);
+$sunset = imagecreatefromjpeg($imageAMontrerCourt);
 
       // Allocate A Color For The Text
-      $black = imagecolorallocate($sunset, 0, 0, 0);
+$black = imagecolorallocate($sunset, 230, 230, 230);
 
       // Set Path to Font File
-      $font_path = '/var/www/html/Projet_13_memeR/fonts/Bangers-Regular.ttf';
+$font_path = '/var/www/html/Projet_13_memeR/fonts/Bangers-Regular.ttf';
 
       // Set Text to Be Printed On Image
-      $text = "Prouut!";
+// $text = "Prouut!";
 
 
-      /*transformations image*/
-      $img_size = getimagesize($sunset);
-      echo $img_size;
+/*transformations image*/
+
+//on récupère le nom seul du fichier image (sans Images/)
+$image = substr($imageAMontrerCourt, (strpos($imageAMontrerCourt, '/')+1));
+
+$img_size = getimagesize($imageAMontrer);
+    //getimagesize : index['3'] contient la chaine à placer dans les balises html /  index['0'] -> largeur / index['1']-> hauteur.
+
+//la police fait 1/8e de l'image
+$taillePolice = $img_size['1']/8;
+
+//positionnement axe des ordonnées
+$yTexteHaut=($taillePolice+($img_size['1']/18));
+$yTexteBas=($img_size['1']-($img_size['1']/18));
 
       // Print Text On Image
-      imagettftext($sunset, 50, 0, 0, 100, $black, $font_path, $text_h);
-      imagettftext($sunset, 50, 0, 0, 400, $black, $font_path, $text_b);
+imagettftext($sunset, $taillePolice, 0, 0, $yTexteHaut, $black, $font_path, $text_h);
+imagettftext($sunset, $taillePolice, 0, 0, $yTexteBas, $black, $font_path, $text_b);
 
-      $chemin = $_SERVER['DOCUMENT_ROOT'].'/Projet_13_memeR/Images';
-
-
-// changer situation du texte (on récupére la hauteur et on divise et pareil avec la largeur)
-
-// Send Image to Browser
-
-  $imageFinale = imagejpeg($sunset,$chemin."/".$nom);
+$chemin = $_SERVER['DOCUMENT_ROOT'].'/Projet_13_memeR/Images';
 
 
+
+    // Send Image to Browser
+$imageFinale = imagejpeg($sunset,$chemin."/".$nom);
+
+    //chemin complet de l'image, à placer dans les requètes des Models pour remplir la base de données, puis afficher ailleurs les memes.
 $cheminImageFinale = $chemin.'/'.$nom;
-echo $cheminImageFinale;
-     // Clear Memory
-      imagedestroy($sunset);
-// }
-?>
+
+    // Clear Memory
+imagedestroy($sunset);
+
+?> 

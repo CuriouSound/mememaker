@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'bangers';
+    src: url('fonts/Bangers-Regular.ttf');
+}
+
 /**********************navbar**************************/
 .bg-dark {
     background-color: #377771 !important;
@@ -45,6 +50,10 @@ background-color: rgba(110, 94, 97, 0.16);
     padding-right: 30px;
 }
 
+p {
+    font-family: 'bangers';
+}
+
 /***************************section des photos à choisir*************/
 .choixPhotos > * {
     padding-top: 15px;
@@ -59,3 +68,14 @@ background-color: rgba(110, 94, 97, 0.16);
 input['placeholder'] {
     color: #FFF;
 }
+
+
+#affichetoptext {
+color: #FFF;
+font-family: 'bangers';
+ }
+
+ #affichebottext {
+    color:#FFF;
+
+ }
