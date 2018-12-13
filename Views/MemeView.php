@@ -8,16 +8,16 @@
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
                     <div class="photo">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum1?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum2?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum3?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum4?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum5?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum6?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum7?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum8?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$randomNum9?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum1?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum2?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum3?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum4?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum5?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum6?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum7?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum8?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum9?>.jpg">
 
                     </div>
                     <form action="?page=meme" method="post">
