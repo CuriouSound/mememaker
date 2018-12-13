@@ -1,4 +1,4 @@
-<?php include('Views/HeaderView.php');?>
+<?php include('Views/HeaderView.php'); ?>
 <section id="pageGenerale">
     <div class="container">
         <div class="row">
@@ -8,16 +8,16 @@
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
                     <div class="photo">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['0']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['1']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['2']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['3']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['4']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['5']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['6']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['7']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['8']?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height: auto%" src="Images/photo<?=$range['9']?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['0'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['1'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['2'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['3'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['4'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['5'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['6'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['7'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['8'] ?>.jpg">
+<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['9'] ?>.jpg">
 
 
                     </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-md">
                 <div class="blocimage">
-                   <!--  <img id="chosenPic" src="<?=$chosenPic?>"> -->
+                   <!--  <img id="chosenPic" src="<?= $chosenPic ?>"> -->
                     <div id="chosenPic"></div>
                     <!-- <img style="width: 100%; max-height: 100%" src="memere.jpg"> -->
                     <div id="finalMeme">
@@ -68,4 +68,4 @@
 chemin des images avec index et htaccess? -->
 
 
-<?php include('Views/FooterView.php');?>
+<?php include('Views/FooterView.php'); ?>

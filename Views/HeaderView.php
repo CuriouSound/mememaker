@@ -34,7 +34,7 @@
             <a class="nav-link" href="?page=meme">Générateur de Meme'R</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="?page=home">C'est quoi un Meme'R?</a>
+            <a class="nav-link" href="?page=pagememer">C'est quoi un Meme'R?</a>
           </li>
           
         </ul>
