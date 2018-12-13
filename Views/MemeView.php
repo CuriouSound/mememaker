@@ -8,16 +8,17 @@
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
                     <div class="photo">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum1?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum2?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum3?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum4?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum5?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum6?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum7?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum8?>.jpg">
-<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$randomNum9?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['0']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['1']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['2']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['3']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['4']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['5']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['6']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['7']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['8']?>.jpg">
+<img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['9']?>.jpg">
+
 
 
                     </div>
