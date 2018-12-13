@@ -12,7 +12,6 @@ foreach (range(0, $len - 1) as $i) {
 }
 
 
-
  
  
 

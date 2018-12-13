@@ -20,7 +20,6 @@
 <img class='imageAMemer bouton' style="width: 9%; height: 10%" src="Images/photo<?=$range['9']?>.jpg">
 
 
-
                     </div>
                     <form action="?page=meme" method="post">
                         <input type="file" name="upload">
