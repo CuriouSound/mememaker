@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="morjannestyle.css"> 
 </head>
 <body>
-    <h1 style="color:green; margin:auto; width:100px;">Meme'R</h1>
-    <img src="memere.jpg">
+<?php include('Views/HeaderView.php'); ?>
+    <img src="memere.jpg" class="imaaage">
     <p style="margin:auto; position: absolue;">Un meme'R c'est  les « mèmes » peuvent prendre la forme d'images, de vidéos ou encore de sons. <br>
         À visée humoristique, le « mème » existe dès qu'une personne lui donne un caractère comique en y apposant une légende, un commentaire ou en le détournant. <br>
        Et plus un « mème » est personnalisé par un grand nombre d'internaute, plus il devient viral.<br>
