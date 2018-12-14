@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/opheliestyle.css">
   <link rel="stylesheet" href="css/robertstyle.css">
   <link rel="stylesheet" href="css/alethstyle.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">

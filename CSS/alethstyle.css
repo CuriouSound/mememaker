@@ -42,8 +42,8 @@ background-color: rgba(110, 94, 97, 0.16);
     border-width: 10px;
 }
 .formValid  {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 
 }
 .instructions {
@@ -61,9 +61,9 @@ p {
 }
 .photo{
     border: thick double rgba(110, 94, 97, 1);
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 input['placeholder'] {
     color: #FFF;

@@ -2,25 +2,82 @@
 <section id="pageGenerale">
     <div class="container">
         <div class="row">
-            <div class="col-12-md">
+            <div class="col-md-12">
                 <h1>Créez votre mémère ici</h1>
+
+
+
+
+
+
+
+
+
+
+
+
 
                 <div class="choixPhotos">
                     <h3>Choisis ta photo dans les propositions ou charge-la</h3>
-                    <div class="photo">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['0'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['1'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['2'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['3'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['4'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['5'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['6'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['7'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['8'] ?>.jpg">
-<img class='imageAMemer bouton' style="width: 8%; height:100%" src="Images/photo<?= $range['9'] ?>.jpg">
+                  
+                        <div class="blbl">
+    
+        <!-- various of text here that can makes it go out the border-->
 
+                            <div class="photo">
+                   
 
-                    </div>
+ 
+        <!-- varicontous of text here that can makes it go out the border-->
+        
+                                    <div class="horizontal-scroll-wrapper">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['0'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['1'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['2'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['3'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['4'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['5'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['6'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['7'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['8'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['9'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['10'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['11'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['12'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['13'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['14'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['15'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['16'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['17'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['18'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['19'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['20'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['21'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['22'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['23'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['24'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['25'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['26'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['27'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['28'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['29'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['30'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['31'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['32'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['33'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['34'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['35'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['36'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['37'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['38'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['39'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['40'] ?>.jpg">
+                                        <img class='imageAMemer bouton' style="width: auto; height:200px" src="Images/photo<?= $range['41'] ?>.jpg">
+                                        
+                                    </div> 
+                               </div>
+                        </div>
+                </div>
                     <form action="?page=meme" method="post">
                         <input type="file" name="upload">
                         <input type="submit" name="envoyer" value="Valider">
