@@ -8,6 +8,7 @@
 
 .imaaage {
     margin: auto;
+    margin-top: 10px;
     max-width: 100%;
     display: block;
 }
@@ -27,7 +28,7 @@
 }
 
 body {
-    background-color: rgb(186, 214, 186);
+    background-color: rgb(219, 228, 208);
 }
 
 @media {
@@ -49,6 +50,7 @@ body {
 @media {
     .imaaage {
         margin: auto;
+        margin-top: 10px;
         max-width: 100%;
         display: block;
     }
