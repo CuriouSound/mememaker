@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:url"           content="https://aletha.promo-24.codeur.online/Projet_13_memeR/?page=meme" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Générateur de mêmes !" />
+  <meta property="og:description"   content="Grâce à ce générateur de même ultra rapide et mobile first fais rire la galerie avec des mêmes délirants" />
+  <meta property="og:image"         content="https://aletha.promo-24.codeur.online/Projet_13_memeR//logomemer/logo_meme.jpg" />
   <title>Générateur de Prout'R</title>
   <link rel="shortcut icon" type="image/png" href="memere.jpg">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
