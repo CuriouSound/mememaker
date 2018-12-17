@@ -9,7 +9,7 @@
 .imaaage {
     margin: auto;
     margin-top: 10px;
-    max-width: 100%;
+    max-width: 80%;
     display: block;
 }
 
@@ -17,16 +17,16 @@
     margin-top: auto;
     margin: 0 auto;
     font-size: 18px;
-    color: rgb(22, 44, 24);
-    padding-left:10%;
-    padding-right:10%;
+    color: rgb(252, 157, 69);
+    padding-left: 10%;
+    padding-right: 10%;
     vertical-align: middle;
     text-align: left;
     position: relative;
 }
 
 body {
-    background-color: rgb(219, 228, 208);
+    background-color: white;
 }
 
 @media {
@@ -34,13 +34,13 @@ body {
         margin-top: auto;
         margin: 0 auto;
         font-size: 18px;
-        color: rgb(22, 44, 24);;
+        color: rgb(252, 157, 69);
         width: 80%;
         vertical-align: middle;
         text-align: center;
         position: relative;
-        margin-left:10%;
-        margin-right:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -48,7 +48,7 @@ body {
     .imaaage {
         margin: auto;
         margin-top: 10px;
-        max-width: 100%;
+        max-width: 80%;
         display: block;
     }
 }
@@ -61,4 +61,8 @@ body {
         max-width: 100%;
         min-width: 10%;
     }
+}
+
+.navbar {
+    background: rgb(252, 157, 69)!important;
 }

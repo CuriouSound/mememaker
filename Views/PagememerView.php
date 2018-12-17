@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Page Title</title>
+    <title>Qu'est-ce qu'un meme'R ?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1280px)" href="morjannestyle.css"> 
 </head>
 <body>
-<?php include('Views/HeaderView.php'); 
+<?php include('Views/HeaderView.php');
 
 ?>
     <img src="memere.jpg" class="imaaage">
