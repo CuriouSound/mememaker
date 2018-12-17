@@ -1,12 +1,8 @@
 <?php include('Views/HeaderView.php'); ?>
 
 <h1>Générateur de memes</h1>
-
-
-<a href="?page=meme"> clique ici pour faire ta mémère</a>
-<?php include('Views/FooterView.php'); ?>
-
 <body>
+
 <script> $(document).ready(function() {
   //Set the carousel options
   $('#quote-carousel').carousel({
@@ -14,6 +10,7 @@
     interval: 4000,
   });
 });</script>
+
 <div class="container">
   <div class="row">
     <div class='col-md-offset-2 col-md-8 text-center'>
@@ -36,7 +33,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img src="images/photo1.jpg">
+                  <img src="images/photo23.jpg">
                 </div>
                 <div class="col-sm-9">
                 </div>
@@ -48,7 +45,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img src="images/photo21.jpg">
+                  <img src="images/photo27.jpg">
                 </div>
                 <div class="col-sm-9">
                 </div>
@@ -60,7 +57,7 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img src="images/photo10.jpg">
+                  <img src="images/photo29.jpg">
                 </div>
                 <div class="col-sm-9">
                 </div>
@@ -76,3 +73,5 @@
     </div>
   </div>
 </div>
+<a href="?page=meme"> clique ici pour faire ta mémère</a>
+<?php include('Views/FooterView.php'); ?>
